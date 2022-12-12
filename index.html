@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/material/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Unreal Engine 5: Все о главном игровом движке!</h1>
+        <p>Алгаев Шамиль, Ирикинов Федос</p>
+    </header>
+
+    <section class="slide">
+        <h2>Что такое игровой движок?</h2>
+        <p>
+            Если простым языком, это набор инструментов для создания игровых миров.
+            Причем самых разных. Например, для вашей игры требуется реалистичное освещение
+            как в Red Dead Redemption 2, или разрушаемость объектов как в Battlefield.
+            Все эти возможности предоставляет движок.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Первая презентация</h2>
+        <p>
+            Чем же уникальна именно 5 версия? 14 мая 2020 года, разработчики представили новую версию движка.
+            Две ключевые технологии, которые были представлены это Nanite и Lumen. Эти два решения,
+            перевернут наше восприятие компьютерных играх.
+        </p>
+    </section>
+
+    <section class="slide clear">
+        <h2 style="">NANITE</h2>
+        <p>
+            Nanite это новый способ взаимодействия с игровыми моделями.
+            До этого попытки предпринимались, например NVIDIA со своим сеточным шейдером.
+            Но повсеместно внедрить эту технологию не получилось.
+        </p>
+        <img class="cover place bottom" src="assets/scale_1200.webp" style="width: 820px; margin: 0 0 20px -8px" alt="...">
+    </section>
+
+    <section class="slide clear">
+        <h2>Оптимизация. Упрощение моделей</h2>
+        <img src="assets/as.webp" alt="...">
+    </section>
+
+    <section class="slide">
+        <h2>Оптимизация. Карта нормалей</h2>
+        <img class="" src="assets/image4.webp" alt="..." style="">
+    </section>
+
+    <section class="slide">
+        <h2>LUMEN</h2>
+        <p>
+            Люмен. Впечатляющая система динамического освещения,
+            которая рассчитывает траектории лучей света, так, как они бы двигались в реальном мире.
+        </p>
+        <img class="cover place bottom" src="assets/image5.webp" style="width: 420px; margin: 0 0 40px 120px" alt="...">
+    </section>
+    
+    <div class="progress"></div>
+
+    <script src="shower/shower.js"></script>
+</body>
+</html>
